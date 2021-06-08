@@ -1,3 +1,5 @@
+**This Project is still work in progress.**
+
 # ETHMiner
 Simple to set up Ethereum Miner.
 
