@@ -1,4 +1,4 @@
-FROM library/debian:stable-20210511-slim
+FROM amd64/debian:stable-20210511-slim
 ARG DEBIAN_FRONTEND="noninteractive"
 RUN apt update && \
     apt install --no-install-recommends --assume-yes \

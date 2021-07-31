@@ -16,8 +16,9 @@ source libs/docker.sh
 assert_dependency "jq"
 assert_dependency "curl"
 
-# Alpine Linux
-update_image "library/alpine" "Alpine Linux" "false" "\d{8}"
+# Debian Stable
+IMG_CHANNEL="stable"
+update_image "amd64/debian" "Debian" "false" "$IMG_CHANNEL-\d+-slim"
 
 # Packages
 IMG_ARCH="x86_64"
